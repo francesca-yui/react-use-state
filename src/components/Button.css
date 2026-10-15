@@ -1,0 +1,18 @@
+.language-button {
+  border: none;
+  background-color: blue;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.language-button.active{
+  background-color: yellow;
+  color: black;
+}
+
+.language p {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: .5rem;
+}
