@@ -1,0 +1,20 @@
+.language-card {
+  border: 0.06rem solid #d0d0d0;
+  border-radius: 0.5rem;
+  padding: 1.35rem 1.25rem 1.2rem;
+  background-color: white;
+}
+
+.language-card h2 {
+  margin: 0rem 0rem 0.5rem 0rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 550;
+}
+
+.language-card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+}

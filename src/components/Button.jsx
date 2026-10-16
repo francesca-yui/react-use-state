@@ -1,15 +1,18 @@
-import './Button.css'
+import './Button.css';
 
 export const Button = props => {
-  const calssName = [
+  const className = [
     'language-button',
-    props.active ? 'active'
-  ].filter(Boolean).join(' ');
+    props.active && 'active'
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
-    <button className='className'
+    <button
+      className={className}
       onClick={props.onClick}
-      > 
+    >
       {props.children}
     </button>
   );
